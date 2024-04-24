@@ -67,6 +67,7 @@ public class Card
     public static void EraseDeck(bool createNewDeck)
     {
         deck.Clear();
+        Console.WriteLine("Deck erased!");
         
         if (createNewDeck)
         {
